@@ -7,7 +7,7 @@
 <meta name="description" content="A contact form to get in touch with your local Sue Ryder hospice">
 <meta name="keywords" content="Sue Ryder, contact form, hospice">
 <title>Contact your local Sue Ryder hospice</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 <h1>Get in touch</h1>
@@ -35,7 +35,8 @@
     <label for="friend_care"> Friend</label><br>
     <input type="checkbox" id="family_care" name="family_care" value="Family">
     <label for="family_care"> Family member</label>
-    <input type="submit" value="Get in touch">
+    <button type="submit">Get in touch</button>
+    <script src="js/app.js" type="module" defer></script>
 </form>
 
 </body>
